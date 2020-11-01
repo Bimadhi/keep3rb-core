@@ -17,7 +17,7 @@ library SafeMath {
         require(b <= a, errorMessage);
         uint256 c = a - b;
 
-        return c;
+         return c;
     }
     function mul(uint256 a, uint256 b) internal pure returns (uint256) {
         if (a == 0) {
