@@ -7,8 +7,7 @@ reports/
 
 # IDEs
 /.idea
-docs
-/*.md
+
 /*.zip
 # misc
 .DS_Store
