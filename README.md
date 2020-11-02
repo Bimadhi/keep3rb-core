@@ -1,9 +1,7 @@
-<<<<<<< HEAD
+
 # Introduction to Keep3rb Network
 
-{% hint style="info" %}
-These docs are in active development by the Keep3rb community.
-{% endhint %}
+
 
 Keep3rb Network is a decentralized keeper network for projects that need external devops and for external teams to find keeper jobs
 
