@@ -3,8 +3,6 @@
 
 pragma solidity ^0.6.12;
 
-// From https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/Math.sol
-// Subject to the MIT license.
 
 /**
  * @dev Wrappers over Solidity's arithmetic operations with added overflow
