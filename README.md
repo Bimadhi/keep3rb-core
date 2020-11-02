@@ -85,7 +85,4 @@ To add credits, you simply need to have KPR-WETH LP tokens, you then call ```add
 ## Github
 
 [Keep3rb](https://github.com/keep3rb-network/keep3rb-core)
-=======
-# keep3rb-core
-keep3rb-core
->>>>>>> 0481802688c67d33cfaf9a160a294f06a4c88eb3
+
