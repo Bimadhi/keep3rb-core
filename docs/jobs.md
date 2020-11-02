@@ -6,7 +6,7 @@
 
 To setup a keeper function simply add the following modifier;
 
-```
+```text
 modifier keep() {
   require(KPR.isKeeper(msg.sender), "::isKeeper: keeper is not registered");
   _;
@@ -24,7 +24,7 @@ Jobs can be created directly via governance or by submitting a job proposal to g
 
 Simply create a new proposal via governance to add a new job
 
-```
+```text
 /**
  * @notice Allows governance to add new job systems
  * @param job address of the contract for which work should be performed
@@ -34,9 +34,9 @@ function addJob(address job) external;
 
 ### Submit a job via adding liquidity
 
-You will need to provide liquidity to one of the approved liquidity pairs (for example KPR-BNB). You put your LP tokens in escrow and receive credit. When the credit is used up, you can simply withdraw the LP tokens. You will receive 100% of the LP tokens back that you deposited.
+You will need to provide liquidity to one of the approved liquidity pairs \(for example KPR-BNB\). You put your LP tokens in escrow and receive credit. When the credit is used up, you can simply withdraw the LP tokens. You will receive 100% of the LP tokens back that you deposited.
 
-```
+```text
 /**
  * @notice Allows liquidity providers to submit jobs
  * @param liquidity the liquidity being added
@@ -54,7 +54,7 @@ Jobs need credit to be able to pay keepers, this credit can either be paid for d
 
 Step 1 is to provide LP tokens as credit. You receive all your LP tokens back when you no longer need to provide credit for a contract.
 
-```
+```text
 /**
  * @notice Allows liquidity providers to submit jobs
  * @param liquidity the liquidity being added
@@ -64,9 +64,9 @@ Step 1 is to provide LP tokens as credit. You receive all your LP tokens back wh
 function addLiquidityToJob(address liquidity, address job, uint amount) external
 ```
 
-Wait ```LIQUIDITYBOND``` (default 2 days) days.
+Wait `LIQUIDITYBOND` \(default 2 days\) days.
 
-```
+```text
 /**
  * @notice Applies the credit provided in addLiquidityToJob to the job
  * @param provider the liquidity provider
@@ -78,7 +78,7 @@ function applyCreditToJob(address provider, address liquidity, address job) exte
 
 ### Remove liquidity from a job
 
-```
+```text
 /**
  * @notice Unbond liquidity for a job
  * @param liquidity the pair being unbound
@@ -88,9 +88,9 @@ function applyCreditToJob(address provider, address liquidity, address job) exte
 function unbondLiquidityFromJob(address liquidity, address job, uint amount) external
 ```
 
-Wait ```UNBOND``` (default 14 days) days.
+Wait `UNBOND` \(default 14 days\) days.
 
-```
+```text
 /**
  * @notice Allows liquidity providers to remove liquidity
  * @param liquidity the pair being unbound
@@ -99,9 +99,9 @@ Wait ```UNBOND``` (default 14 days) days.
 function removeLiquidityFromJob(address liquidity, address job) external
 ```
 
-### Adding credit directly (non BNB)
+### Adding credit directly \(non BNB\)
 
-```
+```text
 /**
  * @notice Add credit to a job to be paid out for work
  * @param credit the credit being assigned to the job
@@ -111,9 +111,9 @@ function removeLiquidityFromJob(address liquidity, address job) external
 function addCredit(address credit, address job, uint amount) external
 ```
 
-### Adding credit directly (BNB)
+### Adding credit directly \(BNB\)
 
-```
+```text
 /**
  * @notice Add BNB credit to a job to be paid out for work
  * @param job the job being credited
@@ -123,13 +123,13 @@ function addCreditETH(address job) external payable
 
 ## Selecting Keepers
 
-Dependent on your requirements you might allow any keepers, or you want to limit specific keepers, you can filter keepers based on ```age```, ```bond```, ```total earned funds```, or even arbitrary values such as additional bonded tokens.
+Dependent on your requirements you might allow any keepers, or you want to limit specific keepers, you can filter keepers based on `age`, `bond`, `total earned funds`, or even arbitrary values such as additional bonded tokens.
 
 ### No access control
 
 Accept all keepers in the system.
 
-```
+```text
 /**
  * @notice confirms if the current keeper is registered, can be used for general (non critical) functions
  * @param keeper the keeper being investigated
@@ -142,7 +142,7 @@ function isKeeper(address keeper) external returns (bool)
 
 Filter keepers based on bonded amount, earned funds, and age in system.
 
-```
+```text
 /**
  * @notice confirms if the current keeper is registered and has a minimum bond, should be used for protected functions
  * @param keeper the keeper being investigated
@@ -154,9 +154,9 @@ Filter keepers based on bonded amount, earned funds, and age in system.
 function isMinKeeper(address keeper, uint minBond, uint earned, uint age) external returns (bool)
 ```
 
-Additionally you can filter keepers on additional bonds, for example a keeper might need to have ```SNX``` to be able to participate in the [Synthetix](https://synthetix.io/) ecosystem.
+Additionally you can filter keepers on additional bonds, for example a keeper might need to have `SNX` to be able to participate in the [Synthetix](https://synthetix.io/) ecosystem.
 
-```
+```text
 /**
  * @notice confirms if the current keeper is registered and has a minimum bond, should be used for protected functions
  * @param keeper the keeper being investigated
@@ -173,15 +173,15 @@ function isBondedKeeper(address keeper, address bond, uint minBond, uint earned,
 
 There are three primary payment mechanisms and these are based on the credit provided;
 
-* Pay via liquidity provided tokens (based on ```addLiquidityToJob```)
-* Pay in direct BNB (based on ```addCreditETH```)
-* Pay in direct token (based on ```addCredit```)
+* Pay via liquidity provided tokens \(based on `addLiquidityToJob`\)
+* Pay in direct BNB \(based on `addCreditETH`\)
+* Pay in direct token \(based on `addCredit`\)
 
 ## Auto Pay
 
 If you don't want to worry about calculating payment, you can simply let the system calculate the payment itself;
 
-```
+```text
 /**
  * @notice Implemented by jobs to show that a keeper performed work
  * @param keeper address of the keeper that performed the work
@@ -191,9 +191,9 @@ function worked(address keeper) external
 
 ### Pay with KPR
 
-The maximum amount that can be paid out per call is ```(gasUsed * fastGasPrice) * 1.1```
+The maximum amount that can be paid out per call is `(gasUsed * fastGasPrice) * 1.1`
 
-```
+```text
 /**
  * @notice Implemented by jobs to show that a keeper performed work
  * @param keeper address of the keeper that performed the work
@@ -206,7 +206,7 @@ function workReceipt(address keeper, uint amount) external
 
 There is no limit on how many tokens can be paid out via this mechanism
 
-```
+```text
 /**
  * @notice Implemented by jobs to show that a keeper performed work
  * @param credit the asset being awarded to the keeper
@@ -220,7 +220,7 @@ function receipt(address credit, address keeper, uint amount) external
 
 There is no limit on how many tokens can be paid out via this mechanism
 
-```
+```text
 /**
  * @notice Implemented by jobs to show that a keeper performend work
  * @param keeper address of the keeper that performed the work
@@ -228,3 +228,4 @@ There is no limit on how many tokens can be paid out via this mechanism
  */
 function receiptETH(address keeper, uint amount) external
 ```
+

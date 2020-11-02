@@ -4,13 +4,13 @@ KPR governance by design has a low overhead, it is not meant to be protocol inte
 
 ## Participants
 
-Only bonded Keepers may participate in governance. To participate in governance a keeper must first ```bond``` KPR, once bonded they can ```delegate``` voting rights to either themselves or another party.
+Only bonded Keepers may participate in governance. To participate in governance a keeper must first `bond` KPR, once bonded they can `delegate` voting rights to either themselves or another party.
 
 ## Managing Jobs
 
 The core function of governance is to approve and include jobs, when liquidity is provided for a job, a proposal is automatically created to include them for review. Bonded keepers will review the contracts and decide if they should be included. It is important that jobs code defensively, assume keepers will only include your job to maximize their returns, as such maximum payment thresholds have been implemented.
 
-```
+```text
 /**
  * @notice Allows governance to add new job systems
  * @param job address of the contract for which work should be performed
@@ -18,7 +18,7 @@ The core function of governance is to approve and include jobs, when liquidity i
 function addJob(address job) external
 ```
 
-```
+```text
 /**
  * @notice Allows governance to remove a job from the systems
  * @param job address of the contract for which work should be performed
@@ -32,7 +32,7 @@ As a last resort, governance has certain rights over managing Keepers, these inc
 
 ### Dispute Management
 
-```
+```text
 /**
  * @notice allows governance to create a dispute for a given keeper
  * @param keeper the address in dispute
@@ -40,7 +40,7 @@ As a last resort, governance has certain rights over managing Keepers, these inc
 function dispute(address keeper) external
 ```
 
-```
+```text
 /**
  * @notice allows governance to resolve a dispute on a keeper
  * @param keeper the address cleared
@@ -50,7 +50,7 @@ function resolve(address keeper) external
 
 ### Slashing
 
-```
+```text
 /**
  * @notice allows governance to slash a keeper based on a dispute
  * @param bonded the asset being slashed
@@ -62,10 +62,11 @@ function slash(address bonded, address keeper, uint amount) public
 
 ### Blacklist
 
-```
+```text
 /**
  * @notice blacklists a keeper from participating in the network
  * @param keeper the address being slashed
  */
 function revoke(address keeper) external
 ```
+
