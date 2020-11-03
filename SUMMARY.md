@@ -2,7 +2,7 @@
 
 * [Introduction to Keep3rb Network](README.md)
 * [REGISTRY](registry.md)
-* [docs](docs/README.md)
+* [Docs](docs/README.md)
   * [Keep3rb](docs/keep3rb.md)
   * [BEP20](docs/bep20.md)
   * [Governance](docs/governance.md)
