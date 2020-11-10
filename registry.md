@@ -21,8 +21,9 @@
 
 ## Whitelisted Pairs
 
-| Pairs | Address |
+| Pairs | Platform | Address |
 | :--- | :--- |
-| CheseeSwap | [0xc8213bba1ad62283847f388d834b876994843b90](https://info.cheeseswap.app/pair/0xc8213bba1ad62283847f388d834b876994843b90) |
-| Pancake | [0xf8689dfd3b7a091a1d8eb728a70e62e22b972fde](https://pancakeswap.info/pair/0xf8689dfd3b7a091a1d8eb728a70e62e22b972fde) |
+| KP3RB-WBNB | CheeseSwap | [0xc8213Bba1ad62283847F388d834B876994843B90](https://info.cheeseswap.app/pair/0xc8213Bba1ad62283847F388d834B876994843B90) |
+| KP3RB-BUSD | CheeseSwap | [0xdB7cc7c7880EA6dbB1f42381a1cCcF8f1b8171c1](https://info.cheeseswap.app/pair/0xdB7cc7c7880EA6dbB1f42381a1cCcF8f1b8171c1) |
+| KP3RB-BUSD | Pancakeswap | [0xf8689dfD3B7a091A1d8eB728A70E62e22B972fDE](https://pancakeswap.info/pair/0xf8689dfD3B7a091A1d8eB728A70E62e22B972fDE) |
 
