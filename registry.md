@@ -16,14 +16,14 @@
 | Job | Address |
 | :--- | :--- |
 | PancakeOracle | [0x149c3a0f9D4EeFC83edac551C1a947897D209c31](https://bscscan.com/address/0x149c3a0f9D4EeFC83edac551C1a947897D209c31) |
-| CheeseSwapOracle | [0xEC41F8770174AA43d2F8085E62674556d31F1318](https://bscscan.com/address/0xEC41F8770174AA43d2F8085E62674556d31F1318) |
+| CheeseSwapOracle { Deprecated  } | [0xEC41F8770174AA43d2F8085E62674556d31F1318](https://bscscan.com/address/0xEC41F8770174AA43d2F8085E62674556d31F1318) |
 
 
 ## Whitelisted Pairs
 
 | Pairs | Platform | Address |
 | :--- | :--- |
-| KP3RB-WBNB | CheeseSwap | [0xc8213Bba1ad62283847F388d834B876994843B90](https://info.cheeseswap.app/pair/0xc8213Bba1ad62283847F388d834B876994843B90) |
-| KP3RB-BUSD | CheeseSwap | [0xdB7cc7c7880EA6dbB1f42381a1cCcF8f1b8171c1](https://info.cheeseswap.app/pair/0xdB7cc7c7880EA6dbB1f42381a1cCcF8f1b8171c1) |
+| KP3RB-WBNB { STOPPED Temporary }| CheeseSwap | [0xc8213Bba1ad62283847F388d834B876994843B90](https://info.cheeseswap.app/pair/0xc8213Bba1ad62283847F388d834B876994843B90) |
+| KP3RB-BUSD { STOPPED Temporary }| CheeseSwap | [0xdB7cc7c7880EA6dbB1f42381a1cCcF8f1b8171c1](https://info.cheeseswap.app/pair/0xdB7cc7c7880EA6dbB1f42381a1cCcF8f1b8171c1) |
 | KP3RB-BUSD | Pancakeswap | [0xf8689dfD3B7a091A1d8eB728A70E62e22B972fDE](https://pancakeswap.info/pair/0xf8689dfD3B7a091A1d8eB728A70E62e22B972fDE) |
 
