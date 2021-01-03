@@ -26,8 +26,9 @@
 | Pairs | Platform | Address |
 | :--- | :--- |
 | KP3RB-WBNB | CheeseSwap | [0x2113ba4000d8a0b201c3e916e63fe0dcdfbe476a](https://info.cheeseswap.app/pair/0x2113ba4000d8a0b201c3e916e63fe0dcdfbe476a) |
+| KP3RB-USDC | CheeseSwap | [0x8534d9cc9d5e763015e3d65ddd948f2a834845a5](https://info.cheeseswap.app/pair/0x8534d9cc9d5e763015e3d65ddd948f2a834845a5) |
 | CHS-WBNB | CheeseSwap | [0x51a162dd678d75c269ef6680193c019e0b4bda7e](https://info.cheeseswap.app/pair/0x51a162dd678d75c269ef6680193c019e0b4bda7e) |
-| KP3RB-BUSD | Pancakeswap | [0x51acb07513ea2ae4adb3f33b7977bb4c75f8c8d6](https://pancakeswap.info/pair/0x51acb07513ea2ae4adb3f33b7977bb4c75f8c8d6) |
 | USDT-WBNB | CheeseSwap | [0xcfd63197d764cd70d07bb607e6367ae0e869badd](https://info.cheeseswap.app/pair/0xcfd63197d764cd70d07bb607e6367ae0e869badd) |
 | USDC-WBNB | CheeseSwap | [0x578e8cec62666d2750d92ecc70be0961ff3ab269](https://info.cheeseswap.app/pair/0x578e8cec62666d2750d92ecc70be0961ff3ab269) |
 | DAI-WBNB | CheeseSwap | [0x89d20dcda1dc49f47bcda00c3b84fe30ac3d127b](https://info.cheeseswap.app/pair/0x89d20dcda1dc49f47bcda00c3b84fe30ac3d127b) |
+| KP3RB-BUSD | Pancakeswap | [0x51acb07513ea2ae4adb3f33b7977bb4c75f8c8d6](https://pancakeswap.info/pair/0x51acb07513ea2ae4adb3f33b7977bb4c75f8c8d6) |
