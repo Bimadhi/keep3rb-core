@@ -26,7 +26,9 @@
 ## Whitelisted Pairs
 
 | Pairs | Platform | Address |
-| :--- | :--- |
+| :--- | :--- | :--- |
+| XCHS+CHS-WBNB | CheeseSwap | [0x6a7483b4c755386496ecd658e114c05a4c698adc](https://info.cheeseswap.app/pair/0x6a7483b4c755386496ecd658e114c05a4c698adc) |
+| WBNB-KP3RB+CHS | CheeseSwap | [0x3c63641b5e1dc0dd18920cd904f81a9d41e6f807](https://info.cheeseswap.app/pair/0x3c63641b5e1dc0dd18920cd904f81a9d41e6f807) |
 | KP3RB-WBNB | CheeseSwap | [0x2113ba4000d8a0b201c3e916e63fe0dcdfbe476a](https://info.cheeseswap.app/pair/0x2113ba4000d8a0b201c3e916e63fe0dcdfbe476a) |
 | KP3RB-CHS | CheeseSwap | [0xe05207a432f6b06fe9f78b598c1f890b260dec45](https://info.cheeseswap.app/pair/0xe05207a432f6b06fe9f78b598c1f890b260dec45) |
 | KP3RB-USDC | CheeseSwap | [0x8534d9cc9d5e763015e3d65ddd948f2a834845a5](https://info.cheeseswap.app/pair/0x8534d9cc9d5e763015e3d65ddd948f2a834845a5) |
