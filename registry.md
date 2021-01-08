@@ -21,6 +21,7 @@
 | PancakeOracle | [0x78146Be4a46015fB7cfd1f4C1Bfd39Cc134e3DC8](https://bscscan.com/address/0x78146Be4a46015fB7cfd1f4C1Bfd39Cc134e3DC8) |
 | PancakeSlidingOracle | [0x447D62d342324Bab63daBa1EbE0a428F1B46a712](https://bscscan.com/address/0x447D62d342324Bab63daBa1EbE0a428F1B46a712) |
 | Keep3rbOraclePancake | [0xc7A742F47818AEE306c46f6EF6433291AA5E0D86](https://bscscan.com/address/0xc7A742F47818AEE306c46f6EF6433291AA5E0D86) |
+| BlueChipbOracle | [0x0065f4110E887e0d1336885B122B294E55cE309F](https://bscscan.com/address/0x0065f4110E887e0d1336885B122B294E55cE309F) |
 
 ## Whitelisted Pairs
 
