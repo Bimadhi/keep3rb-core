@@ -16,12 +16,14 @@
 | Job | Address |
 | :--- | :--- |
 | CheeseSwapOracle | [0x79b6F29703080BeC4f811DA0A88083d415Bda846](https://bscscan.com/address/0x79b6F29703080BeC4f811DA0A88083d415Bda846) |
-| CheeseSwapSlidingOracle | [0x60f4Ff5DbC6Bc73860849b9fA65949FD552D8fa3](https://bscscan.com/address/0x60f4Ff5DbC6Bc73860849b9fA65949FD552D8fa3) |
-| Keep3rbOracle | [0x4C2e06266bd8B8d3d5f3845E365237bb2F643450](https://bscscan.com/address/0x4C2e06266bd8B8d3d5f3845E365237bb2F643450) |
 | PancakeOracle | [0x78146Be4a46015fB7cfd1f4C1Bfd39Cc134e3DC8](https://bscscan.com/address/0x78146Be4a46015fB7cfd1f4C1Bfd39Cc134e3DC8) |
 | PancakeSlidingOracle | [0x447D62d342324Bab63daBa1EbE0a428F1B46a712](https://bscscan.com/address/0x447D62d342324Bab63daBa1EbE0a428F1B46a712) |
 | Keep3rbOraclePancake | [0xc7A742F47818AEE306c46f6EF6433291AA5E0D86](https://bscscan.com/address/0xc7A742F47818AEE306c46f6EF6433291AA5E0D86) |
 | BlueChipbOracle | [0x0065f4110E887e0d1336885B122B294E55cE309F](https://bscscan.com/address/0x0065f4110E887e0d1336885B122B294E55cE309F) |
+| Keep3rbCHSSlidingOracle | [0x7D085fB78A1b5a2e731343f4De736478EF73fD19](https://bscscan.com/address/0x7D085fB78A1b5a2e731343f4De736478EF73fD19) |
+| CheeseBNBSlidingOracle | [0x4fe6482f5e5ba05ca01D9eE445f3c15905662f1C](https://bscscan.com/address/0x4fe6482f5e5ba05ca01D9eE445f3c15905662f1C) |
+| CheeseSwapSlidingOracle | [0x60656630E53e1440bA132f1aCEB35cB209C38522](https://bscscan.com/address/0x60656630E53e1440bA132f1aCEB35cB209C38522) |
+| Keep3rbOracle | [0xda3355Ba70794FF887C76040364FC82cAFD5D3dD](https://bscscan.com/address/0xda3355Ba70794FF887C76040364FC82cAFD5D3dD) |
 
 ## Whitelisted Pairs
 
