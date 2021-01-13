@@ -25,6 +25,10 @@
 | CheeseSwapSlidingOracle | [0x60656630E53e1440bA132f1aCEB35cB209C38522](https://bscscan.com/address/0x60656630E53e1440bA132f1aCEB35cB209C38522) |
 | Keep3rbOracle | [0xda3355Ba70794FF887C76040364FC82cAFD5D3dD](https://bscscan.com/address/0xda3355Ba70794FF887C76040364FC82cAFD5D3dD) |
 | HOTSSlidingOracle | [0xa168eCC9e8Af3d4387857c94E3c436d69AefC4a4](https://bscscan.com/address/0xa168eCC9e8Af3d4387857c94E3c436d69AefC4a4) |
+| Keep3rbOracleDAI | [0x58584B7c6AD437ddfe4669064B30b6b5B2B59435](https://bscscan.com/address/0x58584B7c6AD437ddfe4669064B30b6b5B2B59435) |
+| Keep3rbOracleBUSD | [0x3734E0106E5a88E189712A6058497EC95BfB314E](https://bscscan.com/address/0x3734E0106E5a88E189712A6058497EC95BfB314E) |
+| Keep3rbOracleUSDC | [0xD3794c9Fc12f4915fb108e6Dec25f4B24859101D](https://bscscan.com/address/0xD3794c9Fc12f4915fb108e6Dec25f4B24859101D) |
+| Keep3rbOracleUSDT | [0x43333D3f8853A9d88e463416227eE07ce22D7ecc](https://bscscan.com/address/0x43333D3f8853A9d88e463416227eE07ce22D7ecc) |
 
 ## Whitelisted Pairs
 
@@ -36,6 +40,7 @@
 | KP3RB-CHS | CheeseSwap | [0xe05207a432f6b06fe9f78b598c1f890b260dec45](https://info.cheeseswap.app/pair/0xe05207a432f6b06fe9f78b598c1f890b260dec45) |
 | KP3RB-USDC | CheeseSwap | [0x8534d9cc9d5e763015e3d65ddd948f2a834845a5](https://info.cheeseswap.app/pair/0x8534d9cc9d5e763015e3d65ddd948f2a834845a5) |
 | CHS-WBNB | CheeseSwap | [0x51a162dd678d75c269ef6680193c019e0b4bda7e](https://info.cheeseswap.app/pair/0x51a162dd678d75c269ef6680193c019e0b4bda7e) |
+| WBNB-BUSD | CheeseSwap | [0xF455f6f7988B752F75488E2CCcC030346d0Cac72](https://info.cheeseswap.app/pair/0xF455f6f7988B752F75488E2CCcC030346d0Cac72) |
 | USDT-WBNB | CheeseSwap | [0xcfd63197d764cd70d07bb607e6367ae0e869badd](https://info.cheeseswap.app/pair/0xcfd63197d764cd70d07bb607e6367ae0e869badd) |
 | USDC-WBNB | CheeseSwap | [0x578e8cec62666d2750d92ecc70be0961ff3ab269](https://info.cheeseswap.app/pair/0x578e8cec62666d2750d92ecc70be0961ff3ab269) |
 | DAI-WBNB | CheeseSwap | [0x89d20dcda1dc49f47bcda00c3b84fe30ac3d127b](https://info.cheeseswap.app/pair/0x89d20dcda1dc49f47bcda00c3b84fe30ac3d127b) |
